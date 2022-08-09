@@ -59,7 +59,7 @@
 		</form>
 	</div>
 	<div class="container">
-			<c:forTokens items="${messages}" delims = "," var = "message">
+			<c:forTokens items="${messages}" delims = "|" var = "message">
 				<p><c:out value="${ message}"></c:out></p>
 			</c:forTokens>
 	</div>
